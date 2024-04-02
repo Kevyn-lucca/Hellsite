@@ -7,12 +7,9 @@ function animation(){
         window.requestAnimationFrame(function (time) {
         window.requestAnimationFrame(function (time) {
         img.className = "ani";
-        console.log('baguiiii')
       });
     });
   }
-
-
 
 function carrosel(imgid){
 
@@ -53,7 +50,6 @@ function carrosel(imgid){
         img.setAttribute('src', 'Asset/imagens/hellboy 6.jpg');
         button.setAttribute('onclick', 'carrosel(1)');
         button2.setAttribute('onclick', "carrosel(5)")
-        animation()
     }
 
 } 

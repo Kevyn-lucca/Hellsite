@@ -1,5 +1,6 @@
 body{
     background-color: #01050e;
+    transition: 2s;
 }
 
 .book-grid button{
@@ -15,24 +16,26 @@ body{
     transform: rotate(225deg);
 }
 
+
 .titulo{
     display: grid;
     justify-content: center;
     background-color: #01050e ;
     padding-bottom: 1rem;
+    transition: 2s;
 }
 
-.backimage{
+#backimage{
     background-image: url(/Asset/imagens/um-horizonte-da-cidade-a-noite-ilustracao-de-arte-digital-estilo-quadrinhos_783299-544.avif);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
-    animation: appear-left 0.9s linear auto;
+    
 
 }
 
 
-.backimage img{
+#img-back{
     height: 200px;
     width: 50%;
     margin-top: 0;
@@ -62,7 +65,17 @@ body{
     display: inline;
     list-style: none;
     margin-right: 20px;
-    margin-left: 40px;    
+    margin-left: 20px; 
+  }
+
+.character-buttom button{
+    border-radius: 60px;
+    background-color: black
+}
+
+  .character-buttom img{
+    width: 100%;
+    height: 50px;
   }
   
 .ani{
@@ -70,11 +83,11 @@ body{
 }
 
 .backani{
-    animation: appear-left 0.9s linear ;
+    animation: appear-left 0.5s linear ;
 }
 
-.aniimg{
-    animation: fade 2s linear;
+.Aniimg{
+    animation: fade 3s linear;
 }
 
 .book-arrow{
