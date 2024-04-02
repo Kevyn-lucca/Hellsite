@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" 
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <title>Hellsite</title>
+
+</head>
+<header>
+    <div class="titulo">
+        <img src="Asset/imagens/hellboy-7619.png" alt="titulo" >
+    </div>
+</header>
+<body>
+    <section>
+        <div class="backimage">
+            <img id= "img-back"src="Asset/imagens/hellboy_by_kadmon78_dgmpus2-375w.png" alt="" srcset="">
+        </div>
+        <div class="lore">
+            <ul>
+                <li class="character-buttom" onclick="character(1)"><button>p3</button></li>
+                <li class="character-buttom" onclick="character(2)"><button>p2</button></li>
+                <li class="character-buttom" onclick="character(3)"><button>p1</button></li>
+            </ul>     
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis officia dolore nisi consequuntur doloribus deleniti perferendis, eius, autem excepturi quae aliquam. Molestiae omnis velit minima eveniet amet quibusdam nostrum.
+            </p>
+        </div>            
+    </section>
+    <section>
+        <div >
+            <ul class="book-grid">
+                <li class="book-arrow">
+                    <button id="button-book"  onclick="carrosel(2)"></button>
+                </li>
+                <li class="book-item">
+                    <img id = "img-book" class="no-ani" src="Asset/imagens/hellboy 1.jpg" >
+                </li>
+                <li class="book-arrow">
+                    <button id="button-book2" onclick="carrosel(6)"></button>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <script src="Asset/javascript/script.js"></script>
+    <script src="Asset/javascript/bodyscript.js"></script>
+</body>
+</html>
